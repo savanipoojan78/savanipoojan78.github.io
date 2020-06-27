@@ -935,6 +935,13 @@ section.bl-expand .bl-icon-close {
   padding: 24px;
   display: flex;
   flex-flow: column;
+  height: 30rem;
+  overflow-y : scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  /* background: transparent;  Optional: just make scrollbar invisible */
 }
 
 .resume-content {
@@ -1407,7 +1414,9 @@ ul.social-intro li a {
 .bl-main>section:nth-child(4).bl-expand ul.social-intro li.google-plus a {
   background: #dd4b39;
 }
-
+.bl-main>section:nth-child(4).bl-expand ul.social-intro li.whatsapp a {
+  background: #25D366;
+}
 .bl-main>section:nth-child(4).bl-expand ul.social-intro li.linkedin a {
   background: #0077b5;
 }
